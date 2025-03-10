@@ -1,15 +1,7 @@
 # Entorno virtual
 .venv/
 venv/
-# Ignorar node_modules
-node_modules/
 
-# Ignorar el archivo package-lock.json (opcional)
-package-lock.json
-
-# Ignorar el archivo package.json (opcional)
-package.json
-# Archivos generados por Python
 __pycache__/
 *.pyc
 *.pyo
