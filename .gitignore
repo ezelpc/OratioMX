@@ -27,6 +27,6 @@ Thumbs.db
 *.ckpt
 /data/
 /muestras/
-/modelos/
+/models/
 # Jupyter Notebooks
 .ipynb_checkpoints/
