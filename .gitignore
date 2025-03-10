@@ -1,7 +1,7 @@
 # Entorno virtual
 .venv/
 venv/
-
+node_modules/
 __pycache__/
 *.pyc
 *.pyo
@@ -27,12 +27,11 @@ Thumbs.db
 /backend/lm/data/
 /backend/lm/muestras/
 /backend/lm/models/
-# Ignorar node_modules en la carpeta backend
-/backend/node_modules/
+# Ignorar node_modules en la carpeta backendnode_modules/
 
 # Ignorar package-lock.json y package.json en la carpeta backend
-/backend/package-lock.json
-/backend/package.json
+package-lock.json
+
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
