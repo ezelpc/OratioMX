@@ -1,7 +1,14 @@
 # Entorno virtual
 .venv/
 venv/
+# Ignorar node_modules
+node_modules/
 
+# Ignorar el archivo package-lock.json (opcional)
+package-lock.json
+
+# Ignorar el archivo package.json (opcional)
+package.json
 # Archivos generados por Python
 __pycache__/
 *.pyc
@@ -25,8 +32,15 @@ Thumbs.db
 *.pth
 *.onnx
 *.ckpt
-/data/
-/muestras/
-/models/
+/backend/lm/data/
+/backend/lm/muestras/
+/backend/lm/models/
+# Ignorar node_modules en la carpeta backend
+/backend/node_modules/
+
+# Ignorar package-lock.json y package.json en la carpeta backend
+/backend/package-lock.json
+/backend/package.json
+
 # Jupyter Notebooks
 .ipynb_checkpoints/
