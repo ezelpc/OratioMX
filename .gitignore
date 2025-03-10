@@ -1,0 +1,32 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración y dependencias
+*.log
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos grandes o temporales
+*.sqlite3
+*.db
+*.h5
+*.tflite
+*.pt
+*.pth
+*.onnx
+*.ckpt
+/data/
+/muestras/
+/modelos/
+# Jupyter Notebooks
+.ipynb_checkpoints/
