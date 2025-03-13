@@ -36,3 +36,4 @@ package-lock.json
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
+.qodo
