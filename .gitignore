@@ -1,0 +1,39 @@
+# Entorno virtual
+.venv/
+venv/
+
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración y dependencias
+*.log
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos grandes o temporales
+*.sqlite3
+*.db
+*.h5
+*.tflite
+*.pt
+*.pth
+*.onnx
+*.ckpt
+/backend/lm/data/
+/backend/lm/muestras/
+/backend/lm/models/
+# Ignorar node_modules en la carpeta backendnode_modules/
+
+# Ignorar package-lock.json y package.json en la carpeta backend
+package-lock.json
+
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+.qodo
