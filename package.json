@@ -1,23 +1,19 @@
 {
-  "name": "OratioMX",
+  "name": "oratiomx",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sign-language recognition platform with a Node.js backend",
   "type": "module",
-  "main": "server.js",
+  "main": "Backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "node --check Backend/server.js",
+    "start": "node Backend/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
     "bcrypt": "^5.1.1",
-    "crypto": "^1.0.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "OratioMX": "file:"
+    "jsonwebtoken": "^9.0.2"
   }
 }
